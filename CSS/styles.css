@@ -1,0 +1,188 @@
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  background-image: url("nero.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+  display: table-cell;
+  vertical-align: middle;
+  align-self: center;
+}
+
+hr {
+  border-color: #00FFD1;
+  border-style: dotted none none;
+  border-width: 8px;
+  width: 120%;
+  align-self: center;
+}
+
+h1 {
+  color: #00FFD1;
+}
+
+h2 {
+  color: #00FFD1;
+}
+
+h3 {
+  color: #EEEEEE;
+}
+
+h4 {
+  color: #EEEEEE;
+}
+
+h5 {
+  color: #EEEEEE;
+}
+
+ul {
+  color: #EEEEEE;
+}
+
+ol {
+  color: #EEEEEE;
+}
+
+a {
+  color: #EEEEEE;
+}
+
+label {
+  color: #EEEEEE;
+}
+
+/*index.html CSS*/
+.tb1 {
+  position: relative;
+  top: auto;
+  left: 180px;
+}
+
+.logo {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  top: -1000px;
+  left: -150px;
+  transition-duration: 2s;
+  filter: opacity(100%);
+}
+
+.struz {
+  position: relative;
+  height: 152px;
+  width: 152px;
+  top: -1261px;
+  left: 4px;
+  filter: opacity(100%);
+  transition-duration: 2s
+}
+
+.struz:hover {
+  filter: opacity(0);
+}
+
+.star {
+  position: relative;
+  top: -290px;
+  left: 530px;
+  height: auto;
+  width: 150px;
+}
+
+.exit:hover {
+  color: red;
+}
+
+.call:hover {
+  color: gold;
+}
+
+.download {
+  position: relative;
+  color: #00FFD1;
+  left: 30px;
+  top: -100px;
+  font-family: fantasy;
+  font-size: 40px;
+  border-style: none;
+  border-radius: 30%;
+  border-spacing: 2px;
+  text-align: center;
+  background-color: black;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+.download:hover {
+  font-size: 43px;
+  color: red;
+  background-color: white;
+}
+
+/*contact.html CSS*/
+.rocket {
+  position: relative;
+  left: 90px;
+  top: -80px;
+  width: auto;
+  height: 70px;
+}
+
+.num {
+  position: relative;
+  left: 109px;
+  top: -542px;
+  width: 30px;
+  height: 30px
+}
+
+.gmail {
+  position: relative;
+  left: 280px;
+  top: -458px;
+  width: 27px;
+  height: 20px
+}
+
+.send:hover {
+  background-color: grey;
+  color: white;
+  border-radius: 20%;
+}
+
+.message {
+  color: white;
+  position: relative;
+  top: 5px;
+}
+
+.noscrollbars {
+  overflow: scroll;
+  width: 300px;
+  height: 100px;
+  resize: none;
+  font: italic small-caps bold 16px/2 cursive;
+}
+
+/*hobbies.html CSS*/
+.eyes {
+  position: relative;
+  left: 55px;
+  top: -50px;
+  width: auto;
+  height: 200px;
+  transition-duration: 2s;
+  filter: opacity(0.5%);
+}
+
+.eyes:hover {
+  filter: opacity(100%);
+}
